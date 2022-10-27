@@ -1,10 +1,21 @@
 # Music-KPRN-with-Lyrics-Keyword
 <br>
 
+가사 키워드 추출을 활용한 지식 그래프 기반 음악 추천 시스템
+<br>
+<br>
+<br>
+
+![workflow](./workflow.jpg)
+<div align=center><strong>Workflow of music recommender system using lyrics keyword extraction</strong></div>
+<br>
+<br>
+
 - **Data** : train.json & song_meta.json
 - **Crawling** : pre_crawling.py &#8594; daum_crawling.py &#8594; melon_crawling.py &#8594; concat the crawling files &#8594; after_crawling.py
 - **KPRN-K** : keyword_extraction.py &#8594; data_preparation.py &#8594; make_paths.py &#8594; recommender.py
 - **KPRN** : data_preparation.py &#8594; make_paths.py &#8594; recommender.py
+<br>
 <br>
 <br>
 
@@ -105,6 +116,7 @@
         CUDA_VISIBLE_DEVICES=1 python recommender.py --eval --model model_5000.pt --kg_path_file path_test_5000.pkl -b 128
 
 - 음악 추천
+<br>
 <br>
 <br>
 
