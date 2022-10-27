@@ -56,7 +56,7 @@
     --file_input : [str] 크롤링 데이터 파일명
     --file_output : [str] 키워드 데이터 파일명
     
-    ex) CUDA_VISIBLE_DEVICES=0 python keyword_extraction.py --file_input crawling.csv --file_output keyword.json
+    ex) CUDA_VISIBLE_DEVICES=1 python keyword_extraction.py --file_input crawling.csv --file_output keyword.json
 
 - 가사에서 키워드 추출
 - 키워드 데이터 파일 생성
@@ -102,7 +102,7 @@
     --np_baseline : [boolean] Run the model with the number of path baseline if True
     --samples : [int] 각 interaction마다 추출할 path 개수 (default=-1 : 전체 path 추출)
 
-    ex) CUDA_VISIBLE_DEVICES=0 python recommender.py --train --model model_5000.pt --kg_path_file path_train_5000.pkl -e 10 -b 128
-        CUDA_VISIBLE_DEVICES=0 python recommender.py --eval --model model_5000.pt --kg_path_file path_test_5000.pkl -b 128
+    ex) CUDA_VISIBLE_DEVICES=1 python recommender.py --train --model model_5000.pt --kg_path_file path_train_5000.pkl -e 10 -b 128
+        CUDA_VISIBLE_DEVICES=1 python recommender.py --eval --model model_5000.pt --kg_path_file path_test_5000.pkl -b 128
 
 - 음악 추천
