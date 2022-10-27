@@ -7,7 +7,8 @@
 <br>
 
 ![workflow](./workflow.jpg)
-<div align=center><strong>Workflow of music recommender system using lyrics keyword extraction</strong></div>
+<div align=center>&lt;Workflow of music recommender system using lyrics keyword extraction&gt;</div>
+<br>
 <br>
 <br>
 
