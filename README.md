@@ -1,11 +1,10 @@
 # Music-KPRN-with-Lyrics-Keyword
+<br>
 
-<br/>
-
-- **Data** : train.json, song_meta.json
-- **Crawling** : pre_crawling.py -> daum_crawling.py -> melon_crawling.py -> concat the crawling files -> after_crawling.py
-- **KPRN-K** : keyword_extraction.py -> data_preparation.py -> make_paths.py -> recommender.py
-- **KPRN** : data_preparation.py -> make_paths.py -> recommender.py
+- **Data** : train.json & song_meta.json
+- **Crawling** : pre_crawling.py &#8594; daum_crawling.py &#8594; melon_crawling.py &#8594; concat the crawling files &#8594; after_crawling.py
+- **KPRN-K** : keyword_extraction.py &#8594; data_preparation.py &#8594; make_paths.py &#8594; recommender.py
+- **KPRN** : data_preparation.py &#8594; make_paths.py &#8594; recommender.py
 <br>
 <br>
 
@@ -106,3 +105,10 @@
         CUDA_VISIBLE_DEVICES=1 python recommender.py --eval --model model_5000.pt --kg_path_file path_test_5000.pkl -b 128
 
 - 음악 추천
+<br>
+<br>
+
+## References
+- 본 코드는 [KPRN 모델을 Python과 Pytorch로 구현한 terwilligers의 코드](https://github.com/terwilligers/knowledge-graph-recommender)를 기반으로 작성되었습니다.  
+- KPRN 모델 논문 : [Explainable Reasoning over Knowledge Graphs for Recommendation](https://arxiv.org/abs/1811.04540)  
+- 데이터 출처 : [Kakao Arena Melon Playlist Continuation](https://arena.kakao.com/c/8)  
