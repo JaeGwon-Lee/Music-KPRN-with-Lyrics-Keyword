@@ -2,7 +2,7 @@
 <br>
 
 ### 가사 키워드 추출을 활용한 지식 그래프 기반 음악 추천 시스템  
-#### [Knowledge graph-based music recommender system using lyrics keyword extraction](http://www.kdiss.org/journal/view.html?uid=2864&&vmd=Full)
+### [Knowledge graph-based music recommender system using lyrics keyword extraction](http://www.kdiss.org/journal/view.html?uid=2864&&vmd=Full)
 <br>
 <br>
 <br>
@@ -123,6 +123,6 @@
 <br>
 
 ## References
-- 본 코드는 [KPRN 모델을 Python과 Pytorch로 구현한 terwilligers의 코드](https://github.com/terwilligers/knowledge-graph-recommender)를 기반으로 작성되었습니다.  
+- 본 코드는 [KPRN 모델을 Python과 Pytorch로 구현한 terwilligers님의 코드](https://github.com/terwilligers/knowledge-graph-recommender)를 기반으로 작성되었습니다.  
 - KPRN 모델 논문 : [Explainable Reasoning over Knowledge Graphs for Recommendation](https://arxiv.org/abs/1811.04540)  
 - 데이터 출처 : [Kakao Arena Melon Playlist Continuation](https://arena.kakao.com/c/8)  
