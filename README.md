@@ -1,7 +1,8 @@
 # Music-KPRN-with-Lyrics-Keyword
 <br>
 
-가사 키워드 추출을 활용한 지식 그래프 기반 음악 추천 시스템
+[가사 키워드 추출을 활용한 지식 그래프 기반 음악 추천 시스템](http://www.kdiss.org/journal/view.html?uid=2864&&vmd=Full)  
+[Knowledge graph-based music recommender system using lyrics keyword extraction](http://www.kdiss.org/journal/view.html?uid=2864&&vmd=Full)
 <br>
 <br>
 <br>
